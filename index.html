@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | Backend Software Engineer</title>
+    <meta
+      name="description"
+      content="Backend Software Engineer portfolio with selected projects, experience highlights, and direct contact details."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav shell">
+        <a class="brand" href="#" aria-label="Homepage">Your Name</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero shell reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">Backend Software Engineer</p>
+          <h1>Building reliable APIs and systems that teams trust.</h1>
+          <p>
+            I design, ship, and scale backend platforms focused on performance,
+            stability, and measurable product impact.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="mailto:you@example.com"
+              >Contact Me</a
+            >
+            <a class="btn btn-secondary" href="#projects">View Projects</a>
+          </div>
+        </div>
+        <figure class="hero-photo">
+          <img
+            src="./assets/headshot-placeholder.svg"
+            alt="Placeholder professional headshot"
+          />
+        </figure>
+      </section>
+
+      <section id="about" class="shell section reveal">
+        <h2>About</h2>
+        <p>
+          I am a backend-focused engineer with experience delivering services
+          that support high-volume traffic, clean service boundaries, and
+          maintainable code. I enjoy translating product requirements into
+          resilient architecture and mentoring teams toward better operational
+          outcomes.
+        </p>
+      </section>
+
+      <section id="projects" class="shell section reveal">
+        <h2>Selected Projects</h2>
+        <div class="project-grid">
+          <article class="card">
+            <h3>Event Processing Platform</h3>
+            <p>
+              <strong>Problem:</strong> Analytics events were delayed and
+              inconsistently delivered.
+            </p>
+            <p>
+              <strong>Architecture:</strong> Kafka-based ingestion with worker
+              consumers and idempotent processing.
+            </p>
+            <p>
+              <strong>Impact:</strong> Reduced processing latency from 8 minutes
+              to under 30 seconds.
+            </p>
+            <p><strong>Stack:</strong> Go, Kafka, PostgreSQL, Redis, Docker.</p>
+          </article>
+
+          <article class="card">
+            <h3>Internal API Gateway</h3>
+            <p>
+              <strong>Problem:</strong> Service integration was duplicated and
+              hard to secure.
+            </p>
+            <p>
+              <strong>Architecture:</strong> Centralized gateway with JWT
+              authn/authz and standardized retries.
+            </p>
+            <p>
+              <strong>Impact:</strong> Cut integration defects by 40% across
+              partner teams.
+            </p>
+            <p><strong>Stack:</strong> Node.js, Express, OpenAPI, MySQL.</p>
+          </article>
+
+          <article class="card">
+            <h3>Job Orchestration Service</h3>
+            <p>
+              <strong>Problem:</strong> Scheduled data jobs failed without clear
+              recovery workflows.
+            </p>
+            <p>
+              <strong>Architecture:</strong> Queue-backed orchestration with
+              dead-letter routing and observability hooks.
+            </p>
+            <p>
+              <strong>Impact:</strong> Improved successful daily job completion
+              to 99.8%.
+            </p>
+            <p><strong>Stack:</strong> Python, Celery, RabbitMQ, Prometheus.</p>
+          </article>
+
+          <article class="card">
+            <h3>Audit Trail Service</h3>
+            <p>
+              <strong>Problem:</strong> Compliance reviews required manual log
+              tracing across systems.
+            </p>
+            <p>
+              <strong>Architecture:</strong> Immutable append-only audit service
+              with query APIs and retention policies.
+            </p>
+            <p>
+              <strong>Impact:</strong> Reduced audit investigation time from
+              days to hours.
+            </p>
+            <p><strong>Stack:</strong> Java, Spring Boot, Elasticsearch, AWS.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="shell section reveal">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <p class="timeline-date">2023 - Present</p>
+            <h3>Senior Backend Engineer · Example Company</h3>
+            <p>
+              Led API reliability improvements, introduced SLO tracking, and
+              drove backend architecture decisions for core platform services.
+            </p>
+          </article>
+          <article class="timeline-item">
+            <p class="timeline-date">2021 - 2023</p>
+            <h3>Backend Engineer · Example Company</h3>
+            <p>
+              Built internal services and data pipelines to support product
+              growth and cross-team integration.
+            </p>
+          </article>
+          <article class="timeline-item">
+            <p class="timeline-date">2019 - 2021</p>
+            <h3>Software Engineer · Example Company</h3>
+            <p>
+              Developed APIs and automation tools with focus on code quality,
+              test coverage, and operational consistency.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="shell section reveal">
+        <h2>Contact</h2>
+        <p>
+          Best way to reach me is email. LinkedIn is also open for professional
+          outreach.
+        </p>
+        <div class="contact-links">
+          <a class="btn btn-primary" href="mailto:you@example.com"
+            >you@example.com</a
+          >
+          <a
+            class="btn btn-secondary"
+            href="https://www.linkedin.com/in/your-handle/"
+            target="_blank"
+            rel="noreferrer"
+            >LinkedIn</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="shell site-footer">
+      <p><span id="current-year"></span> Your Name. All rights reserved.</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

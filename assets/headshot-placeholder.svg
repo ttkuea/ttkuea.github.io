@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1200" viewBox="0 0 960 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Profile headshot placeholder</title>
+  <desc id="desc">Neutral professional portrait placeholder with silhouette.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dcece8" />
+      <stop offset="100%" stop-color="#f6eee4" />
+    </linearGradient>
+    <linearGradient id="shirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2f4658" />
+      <stop offset="100%" stop-color="#1f3342" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="1200" fill="url(#bg)" />
+  <circle cx="480" cy="470" r="170" fill="#b9c7d1" />
+  <path d="M220 970c15-190 130-305 260-305s245 115 260 305" fill="url(#shirt)" />
+  <rect x="355" y="905" width="250" height="100" rx="42" fill="#304f66" />
+  <text x="50%" y="1088" text-anchor="middle" font-size="40" font-family="Manrope, Noto Sans, sans-serif" fill="#1f3342">
+    Replace with your professional headshot
+  </text>
+</svg>
