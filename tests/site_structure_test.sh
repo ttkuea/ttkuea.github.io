@@ -21,10 +21,10 @@ assert_contains() {
 assert_file_exists "index.html"
 assert_file_exists "styles.css"
 assert_file_exists "script.js"
-assert_file_exists "assets/headshot-placeholder.svg"
+assert_file_exists "assets/pic.jpeg"
 
 assert_contains "index.html" "id=\"about\""
-assert_contains "index.html" "id=\"projects\""
+assert_contains "index.html" "id=\"education\""
 assert_contains "index.html" "id=\"experience\""
 assert_contains "index.html" "id=\"contact\""
 assert_contains "index.html" "mailto:"
